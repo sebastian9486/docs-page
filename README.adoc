@@ -1,3 +1,9 @@
 = docs-page
 
-Config repo for antora docs
+Config repo for antora docs.
+
+http://docs.alles-und-nichts.com
+
+antora-playbook-local.yml
+
+antora-playbook.yml -> generate htaccess files for private repos -> Can this repo still be public? How to handle secrets (htpasswd)?
