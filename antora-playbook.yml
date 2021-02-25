@@ -1,6 +1,6 @@
 site:
   title: Alles-und-Nichts.com / Docs / Public
-  url: http://localhost:9000
+  url: https://www.alles-und-nichts.com/docs/public/
   start_page: prometheus-grafana-docs::index.adoc
 content:
   branches: master

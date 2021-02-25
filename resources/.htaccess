@@ -1,0 +1,5 @@
+AuthUserFile /www/htdocs/w00f8074/www.alles-und-nichts.com/docs/full/.htpasswd
+AuthGroupFile /dev/null
+AuthName 'Please enter User and Password'
+AuthType Basic
+require valid-user

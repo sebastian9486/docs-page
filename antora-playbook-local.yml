@@ -9,6 +9,8 @@ content:
     start_path: docs
   - url: ../kobol-docs-ui-bundle
     start_path: docs
+  - url: ../kobol-shared-pipelines
+    start_path: docs
   - url: ../jenkins
     start_path: docs
   - url: ../prometheus-grafana
