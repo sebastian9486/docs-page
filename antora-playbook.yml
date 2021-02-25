@@ -1,0 +1,34 @@
+site:
+  title: Alles-und-Nichts.com / Docs / Public
+  url: http://localhost:9000
+  start_page: prometheus-grafana-docs::index.adoc
+content:
+  branches: master
+  sources:
+  - url: https://github.com/sebastian9486/prometheus-grafana.git
+    start_path: docs
+  - url: https://github.com/sebastian9486/kobol-docs-ui-bundle.git
+    start_path: docs
+  - url: https://github.com/sebastian9486/kobol-shared-pipelines.git
+    start_path: docs
+  - url: https://github.com/sebastian9486/v-kube-cluster.git
+    start_path: docs
+  - url: https://github.com/sebastian9486/pi-farm.git
+    start_path: docs
+asciidoc:
+  attributes:
+    kroki-server-url: http://localhost:9001
+    kroki-fetch-diagram: true
+  extensions:
+  - asciidoctor-kroki
+ui:
+  bundle:
+    url: https://allesundnichts.jfrog.io/artifactory/libs-snapshot/com/aun/docs/antora/ui/kobol-docs-ui-bundle/0.0.1-SNAPSHOT/kobol-docs-ui-bundle-0.0.1-SNAPSHOT.zip
+    snapshot: true
+  supplemental_files: ../kobol-docs-ui-bundle/src/main/ui-bundle/supplemental_ui/header
+output:
+    clean: true
+    dir: ./target/public
+runtime:
+  cache_dir: ./target/cache/antora
+  fetch: true
