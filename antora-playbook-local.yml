@@ -15,8 +15,6 @@ content:
     start_path: docs
   - url: ../prometheus-grafana
     start_path: docs
-  - url: ../rundeck
-    start_path: docs
   - url: ../v-kube-cluster
     start_path: docs
   - url: ../pi-farm
